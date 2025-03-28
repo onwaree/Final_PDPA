@@ -1,0 +1,150 @@
+.cursor {
+    position: relative;
+    width: 30px;
+    margin: 0 auto;
+    font-size: 55px;
+    font-weight: 900; /* Thicker font weight */
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    background-image: linear-gradient(to top, #fe4cce, #64c4ff); /* Gradient color */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    color: transparent; /* Make the text color transparent to show the gradient */
+    text-shadow: 3px 3px rgba(21, 16, 114, 0.8); /* Black text shadow to simulate a border */
+}
+
+
+
+/* Animation */
+.typewriter-animation {
+  animation: 
+    typewriter 5s steps(50) 1s infinite normal, 
+    blinkingCursor 500ms steps(50) infinite normal;
+}
+
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blinkingCursor {
+  from { border-right-color: rgba(255,255,255,.75); }
+  to { border-right-color: transparent; }
+}
+
+@keyframes scaleAnimation {
+    0% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* page 2 */
+.cursor2 {
+    position: relative;
+    width: 30px;
+    margin: 0 auto;
+    font-size: 55px;
+    font-weight: 900; /* Thicker font weight */
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    background-image: linear-gradient(to top, #ede137, #f2f7d9); /* Gradient color */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    color: transparent; /* Make the text color transparent to show the gradient */
+    text-shadow: 3px 3px rgba(255, 77, 0, 0.8); /* Black text shadow to simulate a border */
+}
+
+/* Animation */
+.typewriter-animation2 {
+  animation: 
+    typewriter2 5s steps(50) 1s infinite normal, 
+    blinkingCursor2 500ms steps(50) infinite normal;
+}
+
+@keyframes typewriter2 {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blinkingCursor2 {
+  from { border-right-color: rgba(255,255,255,.75); }
+  to { border-right-color: transparent; }
+}
+
+
+/* page 3 */
+.cursor3 {
+    position: relative;
+    width: 30px;
+    margin: 0 auto;
+    font-size: 55px;
+    font-weight: 900; /* Thicker font weight */
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    background-image: linear-gradient(to top, #3d3d3d, #f2f7d9); /* Gradient color */
+    -webkit-background-clip: text; /* Apply grrgb(71, 71, 71)to text */
+    color: transparent; /* Make the text color transparent to show the gradient */
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.8); /* Black text shadow to simulate a border */
+}
+
+/* Animation */
+.typewriter-animation3 {
+  animation: 
+    typewriter3 5s steps(50) 1s infinite normal, 
+    blinkingCursor3 500ms steps(50) infinite normal;
+}
+
+@keyframes typewriter3{
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blinkingCursor3{
+  from { border-right-color: rgba(255,255,255,.75); }
+  to { border-right-color: transparent; }
+}
+
+
+/* page 4 */
+.cursor4 {
+    position: relative;
+    width: 30px;
+    margin: 0 auto;
+    font-size: 55px;
+    font-weight: 900; /* Thicker font weight */
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    background-image: linear-gradient(to top, #ffffff, #ffc400); /* Gradient color */
+    -webkit-background-clip: text; /* Apply grrgb(71, 71, 71)to text */
+    color: transparent; /* Make the text color transparent to show the gradient */
+    text-shadow: 3px 3px rgb(241, 117, 1); /* Black text shadow to simulate a border */
+}
+
+/* Animation */
+.typewriter-animation4 {
+  animation: 
+    typewriter4 5s steps(50) 1s infinite normal, 
+    blinkingCursor4 500ms steps(50) infinite normal;
+}
+
+@keyframes typewriter4{
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blinkingCursor4{
+  from { border-right-color: rgba(255,255,255,.75); }
+  to { border-right-color: transparent; }
+}
+
+
+
+
+
